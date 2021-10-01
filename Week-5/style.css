@@ -1,0 +1,59 @@
+body {
+  font-family: "Niramit";
+  font-style:normal;
+}
+
+p {
+  font-family: "Niramit";
+  font-size: 18px;
+  margin: 1vw;
+}
+
+h1 {
+  font-family: "Racing Sans One";
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(110,191,197);
+  text-align: center;
+}
+h2 {
+  font-family: "Racing Sans One";
+  font-weight:bold;
+  font-size: 40px;
+  color: rgb(110,191,197);
+  background-color: rgb(255,210,141);
+  border: solid;
+  padding: .5vw;
+  margin: 1vw;
+}
+h3 {
+  font-family: "Racing Sans One";
+  font-weight:bold;
+  font-size: 40px;
+  color: rgb(110,191,197);
+  background-color: rgb(255,210,141);
+  border: solid;
+  padding: .5vw;
+  margin: 1vw;
+}
+h4 {
+  font-family: "Racing Sans One";
+  font-weight:bold;
+  font-size: 40px;
+  color: rgb(110,191,197);
+  background-color: rgb(255,210,141);
+  border: solid;
+  padding: .5vw;
+  margin: 1vw;
+}
+ul {
+  font-family: "Niramit";
+  font-size: 18px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+.center {
+  text-align:center;
+}

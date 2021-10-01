@@ -1,0 +1,35 @@
+body {
+  font-family: arial;
+  font-size:2vw;
+  font-weight:100;
+  border: solidrgb(100,100,100) 1px;
+}
+
+p {
+font-size: 20px;
+}
+
+h1{
+  border: solid white 1px;
+}
+
+.grey{
+  color: rgb(100,100,100);
+}
+
+.background{
+  background-color: rgb(100,50,75);
+}
+
+span{
+  color: blue;
+  font-weight: bold;
+}
+
+#sit{
+  font-family: cursive;
+}
+
+hr{
+  border-style: dashed rgb(225,225,0) 2px;
+}
