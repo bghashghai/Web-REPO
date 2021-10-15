@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Niramit">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+
+<body>
+<section id="quotesection">
+<h1 id="quotetext">This is my quote machine! Click the button to get a quote.</h1>
+<button id="newquote">New Quote</button>
+</section>
+
+<section id="flex">
+  <div class="flexitem">
+    <h2>Peace</h2>
+    <img alt="Peace" src="peace.JPG" id="peaceimg">
+  </div>
+
+  <div class="flexitem">
+    <h2>Love</h2>
+    <img alt="Heart" src="heart.JPG" id="heartimg">
+  </div>
+
+  <div class="flexitem">
+    <h2>Kindness</h2>
+    <img alt="Smile" src="smile.JPG" id="smileimg">
+  </div>
+
+</section>
+
+<script>
+  const quotes = ["Keep your face always toward the sunshine, and shadows will fall behind you.", "You define your own life. Don’t let other people write your script.", "Not having the best situation, but seeing the best in your situation is the key to happiness.", "We must let go of the life we have planned, so as to accept the one that is waiting for us.", "What you get by achieving your goals is not as important as what you become by achieving your goals.", "If you don’t like the road you’re walking, start paving another one!", "Don’t try to lessen yourself for the world; let the world catch up to you.", "Life is like riding a bicycle. To keep your balance, you must keep moving.", "Live your beliefs and you can turn the world around."];
+  let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("quotetext").innerHTML = quotes[quotecount];
+    if(quotecount>=8){
+      quotecount = 0;
+    }else{
+    quotecount++;
+  }
+  }
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+body{
+  background-color: white;
+}
+
+
+#quotesection{
+  background-color: rgb(139,207,211);
+  margin: 15vh 20vw;
+  padding: 6vh 7vw;
+  border-radius: 10px;
+}
+
+button{
+  font-family: "Niramit";
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(255,210,141);
+  color: black;
+  border-radius: 10px;
+  padding: 2vh 2vw;
+  margin-top: 1vh;
+}
+
+button:hover{
+  border: #fff solid 1px;
+}
+
+button:active{
+  color: rgb(81,79,76);
+}
+
+h1{
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 21px;
+}
+
+#flex{
+  display: flex;
+  /* margin-left: 100px; */
+  margin-right: 100px;
+  width: 90vw;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+/* #peaceimg {
+  width: 20vw;
+  position: relative;
+}
+
+#heartimg {
+  width: 20vw;
+}
+
+#smileimg {
+  width: 20vw;
+} */
+
+div{
+  border: 1px solid black;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 1vh 1vw;
+  text-align: center;
+}
+
+.flexitem{
+  /* flex-grow: 1; */
+  background-color: rgb(255,210,141);
+}
+
+h2{
+  font-family: "Niramit";
+}
