@@ -39,39 +39,23 @@ h1{
   display: flex;
   /* margin-left: 100px; */
   margin-right: 100px;
-  width: 90vw;
+  width: 100vw;
 }
 
 img{
   width: 200px;
   height: 200px;
 }
-/* #peaceimg {
-  width: 20vw;
-  position: relative;
-}
-
-#heartimg {
-  width: 20vw;
-}
-
-#smileimg {
-  width: 20vw;
-} */
-
-div{
-  border: 1px solid black;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 1vh 1vw;
-  text-align: center;
-}
 
 .flexitem{
   /* flex-grow: 1; */
   background-color: rgb(255,210,141);
+  margin: auto;
+  width: 300px;
+  text-align: center;
 }
 
 h2{
   font-family: "Niramit";
+  text-align: center;
 }
