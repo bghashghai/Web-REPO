@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Design System Extra Credit</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Passion+One">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Niramit">
+</head>
+
+<body>
+<h1 id="title">Self Care Menu</h1>
+
+  <h2>Monday</h2>
+  <button id="MondayButton">Click the button for a suggestion</button>
+  <h2>Tuesday</h2>
+  <button id="TuesdayButton">Click the button for a suggestion</button>
+  <h2>Wednesday</h2>
+  <button id="WednesdayButton">Click the button for a suggestion</button>
+  <h2>Thursday</h2>
+  <button id="ThursdayButton">Click the button for a suggestion</button>
+  <h2>Friday</h2>
+  <button id="FridayButton">Click the button for a suggestion</button>
+  <h2>Saturday</h2>
+  <button id="SaturdayButton">Click the button for a suggestion</button>
+  <h2>Sunday</h2>
+  <button id="SundayButton">Click the button for a suggestion</button>
+
+<h3>Importance of Self Care</h3>
+<p>In a society in which people are expected to work long hours and pass on vacation days, there is an underlying belief that we must always be productive – which can ultimately take away from opportunities for self-care. But by taking some time out to engage in self-care, you may relieve the pressures of everyday life and reset yourself to get back to a healthy point where productivity is once again maximized. Considering the costs associated with mental health services, lost wages and more, spending some time on yourself may ultimately benefit everyone.</p>
+
+<p>Burning the candle at both ends, so-to-speak, comes with significant consequences, which may include but are not limited to burnout, depression, anxiety, resentment and a whole host of other negative implications. Engaging in a self-care routine has been clinically proven to reduce or eliminate anxiety and depression, reduce stress, improve concentration, minimize frustration and anger, increase happiness, improve energy, and more. From a physical health perspective, self-care has been clinically proven to reduce heart disease, stroke and cancer. Spiritually, it may help keep us in tune with our higher power as well as realize our meaning in life.</p>
+
+<p>From <a href="https://www.snhu.edu/about-us/newsroom/health/what-is-self-care">Southern New Hampshire University </a> </p>
+
+<script>
+    console.log("javascript working");
+    document.getElementById("MondayButton").addEventListener("click", buttonOne);
+    document.getElementById("TuesdayButton").addEventListener("click", buttonTwo);
+    document.getElementById("WednesdayButton").addEventListener("click", buttonThree);
+    document.getElementById("ThursdayButton").addEventListener("click", buttonFour);
+    document.getElementById("FridayButton").addEventListener("click", buttonFive);
+    document.getElementById("SaturdayButton").addEventListener("click", buttonSix);
+    document.getElementById("SundayButton").addEventListener("click", buttonSeven);
+    document.getElementById("title").addEventListener("click", titleClicked);
+    function buttonOne(){
+      alert("Do a facemask")
+    }
+    function buttonTwo(){
+      alert("Take a long drive and listen to some tunes")
+    }
+    function buttonThree(){
+      alert("Have a relaxing yoga session")
+    }
+    function buttonFour(){
+      alert("Deep clean your room")
+    }
+    function buttonFive(){
+      alert("Read for 20 minutes")
+    }
+    function buttonSix(){
+      alert("Go on a sunrise hike")
+    }
+    function buttonSeven(){
+      alert("Journal about your week")
+    }
+    function titleClicked(){
+      alert("You are doing great!");
+    }
+  </script>
+
+</body>

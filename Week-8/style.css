@@ -1,0 +1,40 @@
+h1{
+  font-size: 50px;
+  font-family:"Passion One";
+  text-align: center;
+  background-color: #EDA698;
+  border: 1px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 25vw;
+  margin-right: 25vw;
+
+}
+
+h2{
+  font-size: 25px;
+  font-family: "Niramit";
+}
+
+h3{
+  font-size: 35px;
+  font-family:"Passion One";
+  text-align: center;
+  color: black;
+}
+
+p{
+  font-family:"Niramit";
+}
+button{
+  background-color: #C6C0FF;
+  font-size: 16px;
+  padding: 7px 9px;
+  border-radius: 10px;
+  font-size:15px;
+}
+
+button:active{
+  background-color: #EDA698;
+  color: white;
+}
