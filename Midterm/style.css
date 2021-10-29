@@ -1,0 +1,113 @@
+body{
+  background-color: #F4E1D3;
+}
+
+#tabs, #choices{
+  display: flex;
+  margin: 7vh 10vw 0 10vw;
+}
+
+#choices{
+  display:flex;
+  margin: 0vh 10vw 0 10vw;
+  border: 0.25px solid #989898;
+  border-top: none;
+  padding-bottom: 100px;
+  background-color: #D6D2FC;
+  align-items: center;
+}
+
+.weekday{
+  flex-grow: 1;
+  background-color: #EDA698;
+  height:100px;
+  width: auto;
+  border: 0.25px solid grey;
+}
+
+#image, .menu{
+  flex-grow: 1;
+  width:auto;
+  background-color: #D6D2FC;
+  max-width: 50%;
+  margin-top: 75px;
+  object-position: center;
+}
+
+h1{
+  text-align: center;
+  padding: 5vh 7vw 0vh;
+  font-size: 80px;
+  font-family: "Passion One";
+}
+
+h2{
+  padding: 2vh;
+  text-align: center;
+  font-family: "Passion One";
+  font-size: 30px;
+}
+
+#Tuesdaymenu, #Wednesdaymenu, #Thursdaymenu, #Fridaymenu, #Saturdaymenu, #Sundaymenu{
+  display: none;
+}
+
+.active{
+  background-color: #D6D2FC;
+  border-bottom: none;
+  border: 0.25px solid #D6D2FC;
+  border-top: 0.25px solid grey;
+  border-left: 0.25px solid grey;
+  border-right: 0.25px solid grey;
+}
+
+img{
+  width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+  display:block;
+  margin: auto;
+}
+
+h3{
+  font-family: "Passion One";
+  font-size: 35px;
+}
+
+li{
+  font-family: "Niramit";
+  line-height: 35px;
+  font-size: 20px;
+}
+
+h4{
+  text-align: center;
+  padding: 5vh 7vw;
+  font-size: 55px;
+  font-family: "Passion One";
+  margin-bottom: -20px;
+}
+
+button:hover{
+border: solid black 3px;
+}
+
+a:visited{
+  color:black;
+}
+
+a:hover{
+  font-size: 110%;
+  color: #728FCE;
+}
+
+a:active{
+  color: #989898;
+}
+
+p{
+  font-family: "Niramit";
+  font-size: 16px;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
