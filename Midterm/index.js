@@ -10,7 +10,7 @@ for(i=0; i<document.getElementsByClassName("weekday").length; i++){
   document.getElementsByClassName("weekday")[i].id = weekdays[i];
 }
 
-document.getElementById("Monday").classList.toggle('active');
+document.getElementById("monday").classList.toggle('active');
 document.getElementById("image").innerHTML = "<img src= 'Assets/" + images[0] + "' >";
 
 function setActive(e){
