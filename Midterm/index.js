@@ -1,5 +1,5 @@
 let weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-let images = ["monday.jpg", "tuesday.jpg", "wednesday.jpg", "thursday.jpg", "friday.jpg", "saturday.jpg", "sunday.jpg"];
+let images = ["Assets/monday.jpg", "Assets/tuesday.jpg", "Assets/wednesday.jpg", "Assets/thursday.jpg", "Assets/friday.jpg", "Assets/saturday.jpg", "Assets/sunday.jpg"];
 let prevday = "Monday";
 
 for(i=0; i<document.getElementsByClassName("weekday").length; i++){
@@ -11,7 +11,7 @@ for(i=0; i<document.getElementsByClassName("weekday").length; i++){
 }
 
 document.getElementById("Monday").classList.toggle('active');
-document.getElementById("image").innerHTML = "<img src= 'assets/" + images[0] + "' >";
+document.getElementById("image").innerHTML = "<img src= 'Assets/" + images[0] + "' >";
 
 function setActive(e){
 
@@ -34,5 +34,5 @@ function setActive(e){
   day = document.getElementsByClassName('active')[0].id;
   console.log(day);
   document.getElementById(day +"menu").style.display = "block";
-  document.getElementById('image').innerHTML = "<img src='assets/" + day + ".jpg' >";
+  document.getElementById('image').innerHTML = "<img src='Assets/" + day + ".jpg' >";
 }
