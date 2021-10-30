@@ -1,5 +1,5 @@
 let weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-let images = ["Assets/monday.jpg", "tuesday.jpg", "wednesday.jpg", "thursday.jpg", "friday.jpg", "saturday.jpg", "sunday.jpg"];
+let images = ["Assets/monday.jpg", "Assets/tuesday.jpg", "Assets/wednesday.jpg", "Assets/thursday.jpg", "Assets/friday.jpg", "Assets/saturday.jpg", "Assets/sunday.jpg"];
 let prevday = "Monday";
 
 for(i=0; i<document.getElementsByClassName("weekday").length; i++){
