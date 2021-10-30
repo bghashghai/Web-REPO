@@ -1,6 +1,6 @@
-let weekdays = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+let weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 let images = ["monday.jpg", "tuesday.jpg", "wednesday.jpg", "thursday.jpg", "friday.jpg", "saturday.jpg", "sunday.jpg"];
-let prevday = "monday";
+let prevday = "Monday";
 
 for(i=0; i<document.getElementsByClassName("weekday").length; i++){
   document.getElementsByClassName("weekday")[i].innerHTML = "<h2>" + weekdays[i] + "</h2>";
@@ -10,7 +10,7 @@ for(i=0; i<document.getElementsByClassName("weekday").length; i++){
   document.getElementsByClassName("weekday")[i].id = weekdays[i];
 }
 
-document.getElementById("monday").classList.toggle('active');
+document.getElementById("Monday").classList.toggle('active');
 document.getElementById("image").innerHTML = "<img src= 'Assets/" + images[0] + "' >";
 
 function setActive(e){
