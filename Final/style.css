@@ -88,10 +88,11 @@ body{
 }
 
 #topnav{
-  display:flex;
-  width: 60vw;
+  /* display:flex; */
+  /* width: 70vw; */
   /* justify-content: left; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;
+  flex-direction: column; */
 }
 /* nav{
   display:flex;
@@ -102,19 +103,37 @@ body{
 } */
 
 #topnav nav{
+  display: flex;
+  /* width: 50vw; */
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  color: black;
+  /* margin-left: 50px; */
+  /* text-decoration: none;
+  color: black; */
+  /* justify-content: flex-end; */
+  /* text-align: center;
+  padding-bottom: 20px; */
+
+}
+
+#topnav a{
+  margin: 0 2%;
   font-family: "Bebas Neue";
   font-size: 35px;
-  /* margin-left: 50px; */
-  text-decoration: none;
-  color: black;
-  justify-content: flex-end;
+  /* color: black; */
 }
 
-#topnav h1{
-  justify-content: flex-start;
+#nameheader h1{
+  font-family: "Bebas Neue";
+  font-size:60px;
+  text-align: center;
 }
 
-.active{
+
+#active{
   color: #EDA34C;
 }
 
@@ -134,7 +153,6 @@ h4{
 
 #mailto{
   font-family: "Poppins";
-  font-size:
 }
 body{
   margin-bottom: 100px;
@@ -274,3 +292,15 @@ body{
 .fa-facebook{
   color: #EDA34C;
 }
+
+/*
+#left{
+  justify-content: flex-start;
+}
+
+#right{
+  display:flex;
+  float:right;
+  justify-content: flex-end;
+  margin-right: -30%;
+} */
