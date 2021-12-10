@@ -1,0 +1,282 @@
+@media screen and (min-width:800px){
+  #contactimg{
+    display:block;
+  }
+
+  /* #hero h1{
+    font-size: 60px;
+  } */
+
+  #portfolio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "header two"
+    "header three"
+    "four four";
+  }
+}
+
+@media screen and (max-width:801px){
+  #contactimg{
+    display:none;
+  }
+
+  /* #hero h1{
+    font-size: 30px;
+  } */
+
+  #portfolio{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "two"
+    "three"
+    "four";
+  }
+}
+
+
+/* #hero h1{
+  z-index:1;
+  color: #fff;
+  position: absolute;
+  margin-top:60px;
+  margin-left: 30px;
+  margin-right: 100px;
+  font-weight: 600;
+  font-size: 43px;
+} */
+
+
+body{
+  margin: auto 10vw auto 10vw;
+}
+
+
+/* #contactimg{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+#contacttext{
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  height: calc(100%-50px);
+  margin-top: 50px;
+
+} */
+
+.contactdivs{
+  height:100%;
+}
+
+#social img{
+  width:50px;
+  margin: 0px 10px 0px 10px;
+}
+
+#social{
+  display:flex;
+  width: 60%;
+  margin:auto;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+#hero img{
+  border-radius: 20px;
+  width: 90%;
+  height: 500px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+
+#hero{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-row: 100vh;
+  column-gap: 5px;
+}
+.tmember:nth-child(2) img{
+  object-position: 0px 0px;
+}
+
+.tmember:nth-child(3) img{
+  object-position: 0px 0px;
+}
+.tmember{
+  flex-grow:1;
+  text-align: center;
+}
+
+
+nav{
+  display:flex;
+  width: 50vw;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin: 30px auto 30px calc(100% - 50vw);
+}
+
+nav a{
+  font-family: "Bebas Neue";
+  font-size: 35px;
+  margin-left: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.active{
+  color: #EDA34C;
+}
+
+
+p{
+  font-family: "Poppins";
+}
+
+#AboutMe{
+  width: 50%;
+}
+
+h4{
+  font-family: "Patua";
+}
+
+
+#mailto{
+  font-family: "Poppins";
+  font-size:
+}
+body{
+  margin-bottom: 100px;
+}
+
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container, .text {
+  text-align: center;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.prev{
+  left: 0;
+  border-radius: 3px 0 0 3px;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* On hover, add a black background color with a little bit see-through */
+/* .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+} */
+
+.text {
+  font-family: "Poppins";
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#contacttext{
+  text-align: center;
+}
+
+#contacttext h1{
+  font-family: "Bebas Neue";
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+#contacttext h2{
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#contacttext h4{
+  font-family: "Poppins";
+}
+
+#mailto{
+  font-family: "Poppins";
+  font-size: 16px;
+  color: black;
+  margin-bottom: 100px;
+}
+
+#socialimg{
+  margin-top: 10px;
+  padding: 3px;
+}
