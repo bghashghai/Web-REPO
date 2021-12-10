@@ -87,21 +87,31 @@ body{
   column-gap: 5px;
 }
 
-
-nav{
+#topnav{
   display:flex;
-  width: 50vw;
+  width: 60vw;
+  /* justify-content: left; */
+  flex-wrap: wrap;
+}
+/* nav{
+  display:flex;
+  width: 60vw;
   justify-content: left;
   flex-wrap: wrap;
   margin: 30px auto 30px calc(100% - 50vw);
-}
+} */
 
-nav a{
+#topnav nav{
   font-family: "Bebas Neue";
   font-size: 35px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   text-decoration: none;
   color: black;
+  justify-content: flex-end;
+}
+
+#topnav h1{
+  justify-content: flex-start;
 }
 
 .active{
