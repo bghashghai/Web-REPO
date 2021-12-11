@@ -76,7 +76,6 @@ body{
   border-radius: 20px;
   width: 90%;
   height: 500px;
-  margin-top: 20px;
   object-fit: cover;
 }
 
@@ -85,6 +84,7 @@ body{
   grid-template-columns: repeat(2,1fr);
   grid-row: 100vh;
   column-gap: 5px;
+  margin-top: 40px;
 }
 
 
@@ -273,6 +273,7 @@ body{
   margin-top: 10px;
   padding: 3px;
 } */
+
 
 .fa-linkedin{
   color: #EDA34C;
