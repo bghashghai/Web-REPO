@@ -1,32 +1,32 @@
-@media screen and (min-width:800px){
-  #contactimg{
+/* @media screen and (min-width:800px){ */
+  /* #contactimg{
     display:block;
-  }
+  } */
 
   /* #hero h1{
     font-size: 60px;
   } */
 
-  #portfolio{
+  /* #portfolio{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
     "header two"
     "header three"
-    "four four";
+    "four four"; */
   }
 }
 
-@media screen and (max-width:801px){
-  #contactimg{
+/* @media screen and (max-width:801px){ */
+  /* #contactimg{
     display:none;
-  }
+  } */
 
   /* #hero h1{
     font-size: 30px;
   } */
 
-  #portfolio{
+  /* #portfolio{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -34,7 +34,7 @@
     "two"
     "three"
     "four";
-  }
+  } */
 }
 
 
@@ -131,9 +131,9 @@ p{
   width: 50%;
 }
 
-h4{
+/* h4{
   font-family: "Patua";
-}
+} */
 
 
 #mailto{
