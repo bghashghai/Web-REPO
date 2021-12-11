@@ -109,7 +109,6 @@ body{
   margin: 0 2%;
   font-family: "Bebas Neue";
   font-size: 35px;
-  /* color: black; */
 }
 
 #nameheader h1{
@@ -306,4 +305,9 @@ body{
 nav a{
   color: black;
   text-decoration: none;
+}
+
+.socialimg{
+  margin-left: 10px;
+  margin-right: 10px;
 }
