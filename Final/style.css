@@ -1,11 +1,19 @@
-@media screen and (min-width:800px){ */
+@media screen and (min-width:800px){
   #contactimg{
     display:block;
-  } */
-/*
+  }
+}
+
+@media screen and (max-width:801px){
+  #contactimg{
+    display:none;
+  }
+
   #hero h1{
-    font-size: 60px;
-  } */
+    font-size: 30px;
+    font-family:"Bebas Neue";
+  }
+}
 
   /* #portfolio{
     display: grid;
@@ -18,12 +26,13 @@
 }
 
 @media screen and (max-width:801px){ */
-  #contactimg{
+  /* #contactimg{
     display:none;
   }
 
-  /* #hero h1{
+  #hero h1{
     font-size: 30px;
+    font-family:"Bebas Neue";
   } */
 
   /* #portfolio{
