@@ -1,9 +1,9 @@
-/* @media screen and (min-width:800px){ */
-  /* #contactimg{
+@media screen and (min-width:800px){ */
+  #contactimg{
     display:block;
   } */
-
-  /* #hero h1{
+/*
+  #hero h1{
     font-size: 60px;
   } */
 
@@ -13,14 +13,14 @@
     grid-template-areas:
     "header two"
     "header three"
-    "four four"; */
+    "four four";
   }
 }
 
-/* @media screen and (max-width:801px){ */
-  /* #contactimg{
+@media screen and (max-width:801px){ */
+  #contactimg{
     display:none;
-  } */
+  }
 
   /* #hero h1{
     font-size: 30px;
@@ -34,7 +34,7 @@
     "two"
     "three"
     "four";
-  } */
+  }
 }
 
 
@@ -53,7 +53,6 @@
 body{
   margin: auto 10vw auto 10vw;
 }
-
 
 .contactdivs{
   height:100%;
@@ -87,22 +86,13 @@ body{
   margin-top: 40px;
 }
 
-
 #topnav nav{
   display: flex;
-  /* width: 50vw; */
   text-align: center;
   justify-content: center;
   margin: auto;
   flex-wrap: wrap;
   color: black;
-  /* margin-left: 50px; */
-  /* text-decoration: none;
-  color: black; */
-  /* justify-content: flex-end; */
-  /* text-align: center;
-  padding-bottom: 20px; */
-
 }
 
 #topnav a{
@@ -117,11 +107,9 @@ body{
   text-align: center;
 }
 
-
 #active{
   color: #EDA34C;
 }
-
 
 p{
   font-family: "Poppins";
@@ -131,13 +119,6 @@ p{
   width: 50%;
 }
 
-/* h4{
-  font-family: "Patua";
-} */
-
-
-#mailto{
-  font-family: "Poppins";
 }
 body{
   margin-bottom: 100px;
@@ -268,12 +249,8 @@ body{
   font-family: "Poppins";
   font-size: 20px;
 }
-/* #socialimg{
-  margin-top: 10px;
-  padding: 3px;
-} */
 
-
+/* Color matching social media icons */
 .fa-linkedin{
   color: #EDA34C;
 }
@@ -290,23 +267,13 @@ body{
   color: #EDA34C;
 }
 
-/*
-#left{
-  justify-content: flex-start;
-}
-
-#right{
-  display:flex;
-  float:right;
-  justify-content: flex-end;
-  margin-right: -30%;
-} */
 
 nav a{
   color: black;
   text-decoration: none;
 }
 
+/* Spacing social media icons */
 .socialimg{
   margin-left: 10px;
   margin-right: 10px;
